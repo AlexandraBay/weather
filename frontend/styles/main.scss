@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+#root {
+  width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  button {
+    border-radius: 0;
+    font-size: 14px;
+    background: rgba(0,0,0,0.8);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    &:hover {
+      background: rgba(0,0,0,0.7);
+    }
+  }
+  .form {
+    display: flex;
+    justify-content: space-between;
+    input {
+      border-radius: 0;
+      padding: 10px;
+      font-size: 14px;
+      width: 70%;
+      box-sizing: border-box;
+    }
+    button {
+      width: 25%;
+      padding: 10px;
+      text-transform: uppercase;
+    }
+  }
+  .weather {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+  .days {
+    button {
+      margin-right: 10px;
+      background: none;
+      color: black;
+      text-decoration: underline;
+      font-size: 16px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .date {
+    margin: 25px 0;
+  }
+}
