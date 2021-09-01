@@ -33,7 +33,7 @@
     "webpack-hot-middleware": "^2.11.0"
   },
   "devDependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.21.1",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-stage-0": "^6.5.0",
     "react-transform-hmr": "^1.0.4"
